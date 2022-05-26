@@ -1,0 +1,36 @@
+{
+    "solution": {
+        "teamsAppTenantId": "64b729bf-4b0b-4557-8a2f-7730615aa501",
+        "subscriptionId": "1756abc0-3554-4341-8d6a-46674962ea19",
+        "subscriptionName": "Teams Cloud - Dev Test with TTL = 3 Days",
+        "tenantId": "72f988bf-86f1-41af-91ab-2d7cd011db47",
+        "needCreateResourceGroup": false,
+        "resourceGroupName": "annecombotjs_507-dev-rg",
+        "location": "Central US",
+        "resourceNameSuffix": "78c8e3",
+        "provisionSucceeded": true
+    },
+    "fx-resource-appstudio": {
+        "tenantId": "64b729bf-4b0b-4557-8a2f-7730615aa501",
+        "teamsAppId": "cce51c5f-81ee-43c4-8a35-b46bf871beed",
+        "teamsAppUpdatedAt": 1653556681571
+    },
+    "fx-resource-identity": {
+        "identityName": "annecombotdev7f3cbf",
+        "identityResourceId": "/subscriptions/1756abc0-3554-4341-8d6a-46674962ea19/resourceGroups/annecombotjs_507-dev-rg/providers/Microsoft.ManagedIdentity/userAssignedIdentities/annecombotdev7f3cbf",
+        "identityClientId": "2ec58f23-a274-4731-80d3-77d30cec6d93"
+    },
+    "fx-resource-bot": {
+        "botId": "0cb40ff8-e34e-45ae-be39-66e6905733c5",
+        "botPassword": "{{fx-resource-bot.botPassword}}",
+        "objectId": "e48cb32c-451a-409c-8e00-08a67d7d7414",
+        "skuName": "B1",
+        "siteName": "annecombotdev7f3cbfbot",
+        "validDomain": "annecombotdev7f3cbfbot.azurewebsites.net",
+        "appServicePlanName": "annecombotdev7f3cbfbot",
+        "botWebAppResourceId": "/subscriptions/1756abc0-3554-4341-8d6a-46674962ea19/resourceGroups/annecombotjs_507-dev-rg/providers/Microsoft.Web/sites/annecombotdev7f3cbfbot",
+        "siteEndpoint": "https://annecombotdev7f3cbfbot.azurewebsites.net"
+    },
+    "fx-resource-cicd": {},
+    "fx-resource-api-connector": {}
+}
